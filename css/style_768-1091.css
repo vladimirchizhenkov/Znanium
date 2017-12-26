@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 1091px) {
+
+	.nav__list {
+		margin-left: 5px;
+	}
+
+	.nav__list:first-child {
+		margin-left: 3px;
+	}
+
+	.content-information_wrapper {
+		padding: 30px 0 0 0;
+	}
+
+	.olympiad-inv {
+		padding: 5px 0 15px 30px;
+		background: url(../img/content_photo_children.png) no-repeat;
+		background-position: 90% 50%;
+	}
+
+	.content-information__delimiter {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.competition-item {
+		margin-bottom: 15px;
+	}
+
+	.competition__image {
+		height: 325px;
+	}
+
+	.schedule_wrapper {
+		padding-top: 30px;
+	}
+
+	.news-project_wrapper {
+		padding-top: 25px;
+		padding-bottom: 0px;
+	}
+
+	.block-news {
+		min-height: 450px;
+	}
+
+	.block-news_wrapper {
+		margin-bottom: 30px;
+	}
+
+	.block_news__caption {
+		font-size: 16px;
+	}
+
+	.block_news__description {
+		font-size: 14px;
+	}
+
+	.pagination-color {
+		position: relative;
+		top: -150px;
+		left: 0px;
+	}
+
+	.stats_wrapper {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.stats__number_partners-position {
+		top: -31px;
+		left: -25px;
+	}
+
+}

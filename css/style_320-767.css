@@ -1,0 +1,354 @@
+@media screen and (max-width: 767px) {
+
+	html, body {
+		font-size: 14px;
+		overflow-x: hidden;
+	}
+
+	.header_wrapper {
+		padding: 5px 0 35px 0;
+	}
+
+	.header__description {
+		text-align: center;
+		font-size: 14px;
+	}
+	.gate {
+		text-align: center;
+		position: relative;
+		top: 15px;
+		left: 0;
+	}
+
+	.gate__link {
+		font-size: 14px;
+		padding: 13px 20px 13px 65px;
+	}
+
+	.navigation_wrapper {
+		padding: 10px 0;
+	}
+
+	.main-logo {
+		text-align: center;
+	}
+
+	.btn-main__link {
+		padding: 5px 15px;
+		font-size: 12px;
+	}
+
+	.adaptive-menu_label, .adaptive-menu_input {
+		position: relative;
+		display: block;
+		cursor: pointer;
+		color: #000;
+		top: -5px;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+	.adaptive-menu_label::before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 45px;
+		height: 9px;
+		border-top: 2px solid #000;
+		border-bottom: 2px solid #000;
+		top: 25px;
+	}
+
+	.adaptive-menu_label::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 45px;
+		height: 2px;
+		border-top: 2px solid #000;
+		top: 39px;
+	}
+
+	.adaptive-menu_input {
+		display: none;
+	}	
+	
+	.adaptive-menu_input:checked + .nav {
+		display: none;
+	}
+	
+	.nav {
+		text-align: center;
+		position: absolute;
+		background: #fff;
+		border-radius: 5px;
+		border: 2px solid #3398db;
+		top: 45px;
+		left: -135px;
+		z-index: 1;
+	}
+
+	.nav__list {
+		display: block;
+		margin-left: 0;
+	}
+
+	.nav__list:first-child {
+	margin-left: 0px;
+}
+
+	.nav__link {
+		text-align: center;
+		padding: 0px 35px;
+		font-size: 14px
+	}
+
+	.content-information_wrapper {
+		padding: 0;
+	}
+
+	.olympiad-inv {
+		padding: 5px 0 15px 30px;
+		font-size: 14px;
+		line-height: 24px;
+		background: url(../img/content_photo_children.png) no-repeat 50% 50%;
+		background-size: cover;
+	}
+
+	.olympiad-inv__caption {
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+
+	.olympiad-inv__description {
+		margin-bottom: 10px;
+	}
+
+	.pagination_wrapper {
+		margin-top: 0px;
+	}
+
+	.pagination	{
+		position: relative;
+		top: 10px;
+		left: 0px;
+	}
+
+	.content-information__delimiter {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.competition {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.competition-item {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.competition-item__caption {
+		font-size: 16px;
+	}
+
+	.competition-item__description {
+		margin-bottom: 30px;
+	}
+
+	.schedule_wrapper {
+		padding-top: 0px;
+		padding-left: 0px;
+	}
+
+	.schedule__caption {
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 17px;
+	}
+
+	.schedule-table {
+		padding-bottom: 30px;
+	}
+
+	.schedule-table__caption {
+		font-size: 16px;
+		margin-top: 0px;
+		padding: 10px 0px 10px 20px;
+	}
+
+	.schedule-table__caption_orange-border::before {
+		width: 256px;
+	}
+
+	.schedule-table__caption_orange-border::after {
+		left: 245px; 
+	}
+
+	.schedule-table__caption_green-border::before {
+		width: 206px;
+	}
+
+	.schedule-table__caption_green-border::after {
+		left: 196px; 
+	}
+
+	.schedule-table__number {
+		margin-right: 10px;
+	}
+
+	
+	.news-project_wrapper {
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+
+	.news-project__caption {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+	.pagination-news {
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+.block-news {
+	min-height: 360px;
+	margin-bottom: 10px;
+}
+
+.news-project__caption {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.news-project__image {
+	width: 100%;
+}
+
+.pagination-color {
+	position: relative;
+	top: 12px;
+	left: 30px;
+}
+
+.stats_wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.stats__caption {
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.stats__color {
+	font-size: 26px;
+}
+
+
+.stats__item_win {
+	margin-left: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.stats__item_prise {
+	margin-left: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.stats__item_partners {
+	margin-left: 0px;
+	text-align: center;
+}
+
+.stats__number {
+	font-size: 30px;
+}
+
+.stats__number_win-position {
+	top: 0px;
+	left: 87%;
+}
+
+.stats__number_prise-position {
+	top: 0px;
+	left: 85%;
+}
+
+.stats__number_partners-position {
+	top: 0px;
+	left: 83%;
+}
+
+.btn-main_stats {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.list-information {
+	text-align: center;
+	padding-left: 30px;
+}
+
+.about_wrapper {
+	padding-top: 0px;
+}
+
+.list-information_wrapper {
+	margin-bottom: 10px;
+}
+
+.footer_wrapper {
+	padding-top: 20px;
+	padding-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.mono-logo {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.social {
+		text-align: center;
+	}
+	
+
+
+
+
+
+
+
+}
